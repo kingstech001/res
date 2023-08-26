@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: rgb(53, 104, 190, 0.1);
+    height: 50%;
+    padding: 20px;
+}
+
+.banner h2 {
+    color: black;
+    font-family: 'inter';
+    font-weight: 800px;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+
+.deliver,
+.pick {
+    color: #35b8be;
+}
+
+.btns a {
+    text-decoration: none;
+    padding: 7px 30px;
+    color: black;
+    border-radius: 3px;
+    border: 1px solid;
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+.btns a:focus {
+    background-color: #35b8be;
+    color: white;
+}
+
+.btns ul li {
+    list-style: none;
+    margin: 20px;
+}
+
+.btns ul {
+    display: flex;
+    justify-content: center;
+    margin: 8% 3% 3% 3%;
+    flex-wrap: wrap;
+    gap: 1.5%;
+    align-items: center;
+}
+
+.next-btn {
+    text-align: center;
+    margin: 60px 40px;
+}
+
+.next-btn a {
+    text-decoration: none;
+    background-color: #35b8be;
+    padding: 9px 20px;
+    border-radius: 3px;
+    color: white;
+    font-family: 'inter';
+    font-size: 12px;
+}
+
+.cart-menu {
+    height: 100vh;
+    background-color: #35b8be;
+    margin: 10px 3%;
+}
